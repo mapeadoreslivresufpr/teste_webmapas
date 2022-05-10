@@ -27,9 +27,9 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [41.77, -72.69], // EDIT coordinates to re-center map
+    center: [-25.42965,-49.27129], // EDIT coordinates to re-center map
     zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
-    scrollWheelZoom: false,
+    scrollWheelZoom: true,
     tap: false
   });
 
@@ -42,8 +42,8 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([41.77, -72.69]).addTo(map) // EDIT marker coordinates
-  .bindPopup("Insert pop-up text here"); // EDIT pop-up text message
+  L.marker([-25.4511642,-49.2340626]).addTo(map) // EDIT marker coordinates
+  .bindPopup("Centro Politécnico"); // EDIT pop-up text message
 
   </script>
 </body>
